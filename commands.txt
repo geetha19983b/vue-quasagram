@@ -1,0 +1,15 @@
+quasar dev
+
+node index.js 
+
+npm install -g nodemon
+
+nodemon index.js
+
+
+//heroku cli
+//heroku plugins:install heroku-builds
+heroku builds:create -a example-app
+npm run deploy
+
+https://rithu-quasagram-backend.herokuapp.com/posts
